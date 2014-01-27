@@ -4,6 +4,9 @@ function doClick(e) {
 function toSmartAccident() {
 	Alloy.createController('smartAccident').getView().open();
 }
+function toSmartRoadAssist() {
+	Alloy.createController('smartRoadAssist').getView().open();
+}
 function toTokioMarineHomePage() {
 	Ti.Platform.openURL("http://www.tokiomarine-nichido.co.jp");
 }

@@ -9,7 +9,7 @@
  		</View>
  		<View class="view_body">
 	 		<ImageView id="mypage" />
- 			<ImageView id="roadservice" />
+ 			<ImageView id="roadservice" onClick="toSmartRoadAssist"/>
  		</View>
  		<View class="view_body">
 	 		<ImageView id="oneday" onClick="toOnedayInsurance"/>

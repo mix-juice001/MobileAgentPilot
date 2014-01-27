@@ -2,7 +2,16 @@ function Controller() {
     function toSmartAccident() {
         Alloy.createController("smartAccident").getView().open();
     }
+    function toSmartRoadAssist() {
+        Alloy.createController("smartRoadAssist").getView().open();
+    }
     function toTokioMarineHomePage() {
+        Ti.Platform.openURL("http://www.tokiomarine-nichido.co.jp");
+    }
+    function toOnedayInsurance() {
+        Ti.Platform.openURL("http://www.tokiomarine-nichido.co.jp");
+    }
+    function toNamazu() {
         Ti.Platform.openURL("http://www.tokiomarine-nichido.co.jp");
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
@@ -74,6 +83,7 @@ function Controller() {
         id: "roadservice"
     });
     $.__views.__alloyId1.add($.__views.roadservice);
+    toSmartRoadAssist ? $.__views.roadservice.addEventListener("click", toSmartRoadAssist) : __defers["$.__views.roadservice!click!toSmartRoadAssist"] = true;
     $.__views.__alloyId2 = Ti.UI.createView({
         width: "100%",
         height: Ti.UI.SIZE,
@@ -88,6 +98,7 @@ function Controller() {
         id: "oneday"
     });
     $.__views.__alloyId2.add($.__views.oneday);
+    toOnedayInsurance ? $.__views.oneday.addEventListener("click", toOnedayInsurance) : __defers["$.__views.oneday!click!toOnedayInsurance"] = true;
     $.__views.photo = Ti.UI.createImageView({
         image: "/images/img_menu_photo.png",
         width: "50%",
@@ -108,6 +119,7 @@ function Controller() {
         id: "quake"
     });
     $.__views.__alloyId3.add($.__views.quake);
+    toNamazu ? $.__views.quake.addEventListener("click", toNamazu) : __defers["$.__views.quake!click!toNamazu"] = true;
     $.__views.note = Ti.UI.createImageView({
         image: "/images/img_menu_note.png",
         width: "50%",
@@ -145,6 +157,9 @@ function Controller() {
     _.extend($, $.__views);
     $.index.open();
     __defers["$.__views.smartAccident!click!toSmartAccident"] && $.__views.smartAccident.addEventListener("click", toSmartAccident);
+    __defers["$.__views.roadservice!click!toSmartRoadAssist"] && $.__views.roadservice.addEventListener("click", toSmartRoadAssist);
+    __defers["$.__views.oneday!click!toOnedayInsurance"] && $.__views.oneday.addEventListener("click", toOnedayInsurance);
+    __defers["$.__views.quake!click!toNamazu"] && $.__views.quake.addEventListener("click", toNamazu);
     __defers["$.__views.logo!click!toTokioMarineHomePage"] && $.__views.logo.addEventListener("click", toTokioMarineHomePage);
     _.extend($, exports);
 }
