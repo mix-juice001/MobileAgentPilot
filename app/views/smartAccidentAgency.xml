@@ -1,0 +1,10 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="smartAccidentLogo" />
+			</View>
+
+		</View>
+    </Window>
+</Alloy>

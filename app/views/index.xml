@@ -1,0 +1,28 @@
+<Alloy>
+    <Window class="container" fullscreen="true">
+    	<View id="view_header">
+    		<ImageView id="header" />
+    	</View>
+ 		<View class="view_body">
+	 		<ImageView id="contact" />
+ 			<ImageView id="smartAccident" onClick="toSmartAccident"/>
+ 		</View>
+ 		<View class="view_body">
+	 		<ImageView id="mypage" />
+ 			<ImageView id="roadservice" />
+ 		</View>
+ 		<View class="view_body">
+	 		<ImageView id="oneday" onClick="toOnedayInsurance"/>
+ 			<ImageView id="photo" />
+ 		</View>
+ 		<View class="view_body">
+	 		<ImageView id="quake" onClick="toNamazu"/>
+ 			<ImageView id="note" />
+ 		</View>
+ 		<View class="view_body">
+	 		<ImageView id="profile" />
+	 		<ImageView id="logo" onClick="toTokioMarineHomePage"/>
+	 		<ImageView id="info" />
+ 		</View>
+    </Window>
+</Alloy>

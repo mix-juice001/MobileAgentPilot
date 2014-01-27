@@ -1,0 +1,22 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="smartAccidentLogo" />
+			</View>
+			<ImageView id="carStatus" />
+			<View id="buttonView">
+			    <ImageView id="runnable" onClick="clickRunnable"/>
+			    <ImageView id="notRunnable" onClick="clickNotRunnable"/>
+			</View>
+			<ImageView id="arrow" />
+			<ImageView id="cellPhone" />
+			<View id="number">
+                <ImageView id="phoneNumberImage" />
+                <TextField id="cellNumber" />
+            </View>
+			<ImageView id="arrow" />
+			<ImageView id="call" onClick="onCall"/>
+		</View>
+    </Window>
+</Alloy>

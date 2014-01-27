@@ -1,0 +1,62 @@
+".container": {
+	backgroundColor : "#FFFFFF"
+},
+"#top": {
+	layout:"vertical",
+	width:"100%",
+	height: Ti.UI.SIZE,
+	top:"0dp"
+},
+"#header": {
+	width:"100%",
+	height: Ti.UI.SIZE,
+	top:"0dp"	
+},
+"#buttonView": {
+	width:"100%",
+	height: Ti.UI.SIZE,
+	layout:"vertical",
+	top:"0dp"
+},
+"#number": {
+	height: Ti.UI.SIZE,
+	top:"0dp"
+},
+"#smartAccidentLogo": {
+    "image": "/images/smartAccidentLogo.png"
+},
+"#carStatus": {
+	"image": "/images/smartAccident_selectCarStatus.png",
+	top:"10dp"
+},
+"#runnable": {
+    "image": "/images/smartAccident_runnable.png",
+    top:"20dp"
+},
+"#notRunnable": {
+    "image": "/images/smartAccident_notRunnable.png",
+    top:"20dp"
+},
+"#arrow": {
+    "image": "/images/arrow.png",
+    top:"10dp"
+},
+"#cellPhone": {
+    "image": "/images/smartAccident_cellPhone.png",
+    top:"10dp"
+},
+"#phoneNumberImage": {
+	"image": "/images/smartAccident_phoneNumber.png",
+},
+"#cellNumber": {
+	hintText:"09012345678",
+	width:"170dp",
+	left:"110dp",
+	maxLength:"20",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_NONE
+	//height:"10dp"
+},
+"#call": {
+    "image": "/images/smart_call.png",
+    top:"10dp"
+}

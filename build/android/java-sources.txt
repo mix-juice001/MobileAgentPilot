@@ -1,0 +1,6 @@
+"C:/Users/setoguchi/Documents/Titanium_Studio_Workspace/MobileAgentPilot/build/android/gen/setoguchi/itken/ApplicationStylesheet.java"
+"C:/Users/setoguchi/Documents/Titanium_Studio_Workspace/MobileAgentPilot/build/android/gen/setoguchi/itken/AssetCryptImpl.java"
+"C:/Users/setoguchi/Documents/Titanium_Studio_Workspace/MobileAgentPilot/build/android/gen/setoguchi/itken/MobileagentpilotActivity.java"
+"C:/Users/setoguchi/Documents/Titanium_Studio_Workspace/MobileAgentPilot/build/android/gen/setoguchi/itken/MobileagentpilotAppInfo.java"
+"C:/Users/setoguchi/Documents/Titanium_Studio_Workspace/MobileAgentPilot/build/android/gen/setoguchi/itken/MobileagentpilotApplication.java"
+"C:/Users/setoguchi/Documents/Titanium_Studio_Workspace/MobileAgentPilot/build/android/gen/setoguchi/itken/R.java"

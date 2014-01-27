@@ -1,0 +1,26 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="smartAccidentLogo" onCLick="doClick" />
+			</View>
+			
+			<View id="buttonView">
+			    <ImageView id="contact2Agency" onClick="toAgency"/>
+			    <ImageView id="contact2Tokiomarine" onClick="toTokiomarine"/>
+			    <ImageView id="contact2HP" onClick="toHP"/>
+			</View>
+			<Label id="hp_msg">〈聴覚障がい者のお客様へ〉\nホームページから事故をご連絡いただけます。</Label>
+			<Label id="address">address</Label>
+		</View>
+		<View id="footer">
+		    <ImageView id="incident" />
+		    <ImageView id="memo" />
+		    <ImageView id="navi" />
+		</View>
+    </Window>
+</Alloy>
+<!--
+	<Label id="space_top" >aaa</Label>
+
+-->

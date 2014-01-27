@@ -1,0 +1,64 @@
+".container": {
+	backgroundImage : '/images/img_background.png',
+	layout:"vertical"
+},
+"View": {
+	width:"100%",
+	height: Ti.UI.SIZE,
+	top:"10dp"
+},
+"#view_header": {
+	left:"10dp"
+},
+".view_body": {
+	 layout:"horizontal",
+	 width:"100%"
+},
+"#header": {
+	"image": "/images/img_moileAgent_String.png"
+},
+"#contact": {
+	"image": "/images/img_menu_contact.png",
+	width:"50%"
+},
+"#smartAccident": {
+	"image": "/images/img_menu_accident.png",
+	width:"50%"
+},
+"#mypage": {
+	"image": "/images/img_menu_mypage.png",
+	width:"50%"
+},
+"#roadservice": {
+	"image": "/images/img_menu_roadservice.png",
+	width:"50%"
+},
+"#oneday": {
+	"image": "/images/img_menu_oneday_insurance.png",
+	width:"50%"
+},
+"#photo": {
+	"image": "/images/img_menu_photo.png",
+	width:"50%"
+},
+"#quake": {
+	"image": "/images/img_menu_quakecheck.png",
+	width:"50%"
+},
+"#note": {
+	"image": "/images/img_menu_note.png",
+	width:"50%"
+},
+"#profile": {
+	"image": "/images/img_profile_none.png",
+	width:"25%"
+},
+"#logo": {
+	"image": "/images/img_tokiomarine_logo.png",
+	width:"50%"
+},
+"#info":{
+	"image": "/images/img_information.png",
+	width:"25%"
+}
+
