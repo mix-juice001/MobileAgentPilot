@@ -4,7 +4,7 @@
     		<ImageView id="header" />
     	</View>
  		<View class="view_body">
-	 		<ImageView id="contact" />
+	 		<ImageView id="contact" onClick="toContactList"/>
  			<ImageView id="smartAccident" onClick="toSmartAccident"/>
  		</View>
  		<View class="view_body">

@@ -1,0 +1,14 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="contactListLogo" />
+			</View>
+		</View>
+		<View>
+			<View id="buttonView">
+			    <ImageView id="registerButton" onClick="registerContact"/>
+			</View>
+		</View>
+    </Window>
+</Alloy>

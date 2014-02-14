@@ -1,0 +1,16 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="smartRoadLogo" />
+			</View>
+			<ImageView id="cellPhone" />
+            <View id="number">
+            	<Label id="label">携帯Tel</Label><TextField id="phoneNumber"></TextField>
+            </View>
+		</View>
+		<View id="footer">
+			<ImageView id="call" onClick="onCall"/>
+		</View>
+    </Window>
+</Alloy>

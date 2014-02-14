@@ -1,0 +1,33 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="contactListLogo" />
+			</View>
+			<Label id="margin"/>
+			<View id="backgroudLabel">
+				<Label id="fieldLabel">代理店名</Label><Label id="agency"></Label>
+			</View>
+			<View  id="backgroudLabel">
+				<Label id="fieldLabel">担当者名</Label><Label id="person"></Label>
+			</View>
+			<Label id="margin"/>
+			<View id="backgroudLabel">
+				<Label id="fieldLabel">電話①</Label><Label id="telno1"></Label>
+			</View>
+			<View id="backgroudLabel">
+				<Label id="fieldLabel">電話②</Label><Label id="telno2"></Label>
+			</View>
+			<Label id="margin"/>
+			<View id="backgroudLabel">
+				<Label id="fieldLabel">メール</Label><Label id="mail"></Label>
+			</View>
+			<View id="backgroudLabel">
+				<Label id="fieldLabel">URL</Label><Label id="url"></Label>
+			</View>
+			<Label id="margin"/>
+			<Label id="margin"/>
+			<Label id="memo"/>
+		</View>
+    </Window>
+</Alloy>
