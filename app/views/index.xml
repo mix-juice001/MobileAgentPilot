@@ -8,7 +8,7 @@
  			<ImageView id="smartAccident" onClick="toSmartAccident"/>
  		</View>
  		<View class="view_body">
-	 		<ImageView id="mypage" />
+	 		<ImageView id="mypage" onClick="toMyPage"/>
  			<ImageView id="roadservice" onClick="toSmartRoadAssist"/>
  		</View>
  		<View class="view_body">
@@ -20,7 +20,7 @@
  			<ImageView id="note" />
  		</View>
  		<View class="view_body">
-	 		<ImageView id="profile" />
+	 		<ImageView id="profile" onClick="toProfile"/>
 	 		<ImageView id="logo" onClick="toTokioMarineHomePage"/>
 	 		<ImageView id="info" />
  		</View>

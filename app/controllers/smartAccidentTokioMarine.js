@@ -8,5 +8,7 @@ function clickNotRunnable() {
 }
 function onCall() {
 	//send via http
+	var client = require("commonHTTPClient");
+	client.postLocationAndCell();
 	Titanium.Platform.openURL("tel:0120119110");
 }
