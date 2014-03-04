@@ -1,0 +1,14 @@
+<Alloy>
+    <Window class="container" id="win" modal="true">
+    	<ListView id="listview" onItemclick="itemClick">
+			<ListSection id="listSection">
+				<ListItem title="写真を撮影する" class="item" />
+				<ListItem title="ギャラリーから写真を選ぶ" class="item" />
+				<ListItem title="写真をクリア" class="delete"/>
+			</ListSection>
+			<FooterView>
+				<Button id="cancel" onClick="cancel">キャンセル</Button>
+			</FooterView>
+		</ListView>
+    </Window>
+</Alloy>

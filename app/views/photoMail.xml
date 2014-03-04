@@ -1,0 +1,24 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+    		<View id="header">
+			    <ImageView id="photoMailLogo" />
+			</View>
+			<View class="photoView">
+				<ImageView id="carImage" onClick="selectHow" class="photoImage"/>
+				<ImageView id="carLabel" class="photoLabel" onClick="selectHowByLabel" />
+			</View>
+			<View class="photoView">
+				<ImageView id="situationImage" onClick="selectHow" class="photoImage"/>
+				<ImageView id="situationLabel" class="photoLabel"/>
+			</View>
+			<View class="photoView">
+				<ImageView id="otherInfoImage" onClick="selectHow" class="photoImage"/>
+				<ImageView id="otherInfoLabel" class="photoLabel"/>
+			</View>
+		</View>
+		<View id="footer">
+			<ImageView id="mailButton" class="button" />
+		</View>
+    </Window>
+</Alloy>

@@ -1,0 +1,12 @@
+<Alloy>
+    <Window class="container" id="win" modal="true">
+    	<View id="top">
+			<Label id="mesage" >代理店の電話番号をハイフン\n（‐）なしで入力してください。</Label>
+			<TextField id="telno4search" />
+			<View id="buttons">
+				<Button id="ok" onClick="retrieveAgency"/>
+				<Button id="cancel" onClick="cancel"/>
+			</View>
+		</View>
+    </Window>
+</Alloy>

@@ -1,0 +1,58 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+
+    	<View id="top">
+    		<View id="header">
+			    <ImageView id="contactListLogo" />
+			    <ImageView id="contactEditButton" onClick="editContact"/>
+			    <ImageView id="contactAddButton" onClick="addContact"/>
+			</View>
+			<ScrollableView id="scrollableView" showPagingControl="true" onScrollEnd="scroll">
+	            <!-- <View id="view1" backgroundColor="#123" />
+	            <View id="view2" backgroundColor="#246" />
+	            <View id="view3" backgroundColor="#48b" /> -->
+			</ScrollableView>
+			<!--
+			<View id="agencyInfo">
+				<ImageView id="arrowLeft" onClick="previous"/>
+				<ImageView id="agencyImage" />
+				<Label id="agencyName" class="name"/>
+				<Label id="representative" class="name" />
+				<ImageView id="arrowRight" onClick="next"/>
+			</View>
+			<View class="backgroudLabel">
+				<Label class="fieldLabel" onClick="tel1">電話①</Label>
+				<Label class="content" id="telno1" onClick="tel1"></Label>
+				<ImageView id="imageTel1" onClick="tel1"/>
+			</View>
+			<View class="backgroudLabel">
+				<Label class="fieldLabel" onClick="tel2">電話②</Label>
+				<Label class="content" id="telno2" onClick="tel2"></Label>
+				<ImageView id="imageTel2" onClick="tel2"/>
+			</View>
+			<Label id="margin"/>
+			<View class="backgroudLabel">
+				<Label class="fieldLabel" onClick="mail">メール</Label>
+				<Label class="content" id="mail" onClick="mail"></Label>
+				<ImageView id="imageMail" onClick="mail"/>
+			</View>
+			<View class="backgroudLabel">
+				<Label class="fieldLabel" onClick="hp">URL</Label>
+				<Label class="content" id="url" onClick="hp"></Label>
+				<ImageView id="imageHP" onClick="hp" />
+			</View>
+			<Label id="margin"/>
+			<View class="backgroudLabel">
+				<Label id="memo"/>
+				<ImageView id="imageMemoDetail" />
+			</View>
+			<View class="backgroudLabel">
+				<Label class="fieldLabel">事故時の優先連絡先\nに設定する。</Label>
+				<Switch id="priority" onClick="prioritize"/>
+			</View>
+			-->
+		</View>
+    	<ImageView id="arrowLeft" onClick="previous"/>
+		<ImageView id="arrowRight" onClick="next"/>
+    </Window>
+</Alloy>

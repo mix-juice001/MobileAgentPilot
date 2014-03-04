@@ -1,0 +1,33 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+    		<View id="header">
+			    <ImageView id="photoMailLogo" />
+			</View>
+			<ScrollableView id="scrollableView" showPagingControl="true" onScrollEnd="scroll">
+				<View id="page1">
+					<View class="body">
+						<ImageView id="step1" />
+						<ImageView id="situation" />
+						<ImageView id="ste1Msg" />
+					</View>
+				</View>
+				<View id="page2">
+					<View class="body">
+						<ImageView id="step2" />
+						<ImageView id="cell" />
+						<View id="customerCell">
+							<Label id="telLabel">Tel</Label>
+							<TextField id="telno"></TextField>
+						</View>
+						<ImageView id="step2Msg" />
+					</View>
+				</View>
+			</ScrollableView>
+		</View>
+		<View id="footer">
+			<ImageView id="page" />
+			<ImageView id="actionButton" class="button" onClick="action"/>
+		</View>
+    </Window>
+</Alloy>

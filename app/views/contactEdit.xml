@@ -1,0 +1,40 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<View id="header">
+			    <ImageView id="contactListLogo" />
+			    <!-- <ImageView id="register" onClick="onClickRegister"/> -->
+			</View>
+			
+			<Label id="margin"/>
+			<ImageView id="agencyImage"/>
+			<Label id="margin"/>
+			<View id="backgroudLabel">
+				<Label class="fieldLabel">代理店名</Label><Label id="agency" class="content"></Label>
+			</View>
+			<View  id="backgroudLabel">
+				<Label class="fieldLabel">担当者名</Label><Label id="representative" class="content"></Label>
+			</View>
+			<Label id="margin"/>
+			<View id="backgroudLabel">
+				<Label class="fieldLabel">電話①</Label><Label id="telno1" class="content"></Label>
+			</View>
+			<View id="backgroudLabel">
+				<Label class="fieldLabel">電話②</Label><Label id="telno2" class="content"></Label>
+			</View>
+			<Label id="margin"/>
+			<View id="backgroudLabel">
+				<Label class="fieldLabel">メール</Label><Label id="mail" class="content"></Label>
+			</View>
+			<View id="backgroudLabel">
+				<Label class="fieldLabel">URL</Label><Label id="url" class="content"></Label>
+			</View>
+			<Label id="margin"/>
+			<Label id="margin"/>
+			<Label id="memo"/>
+		</View>
+		<View id="footer">
+			<ImageView id="removeButon" onClick="remove"/>
+		</View>
+    </Window>
+</Alloy>

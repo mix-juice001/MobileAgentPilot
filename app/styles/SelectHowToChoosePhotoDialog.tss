@@ -1,0 +1,21 @@
+"#win": {
+	backgroundColor:"#f5f5f5",
+	navBarHidden:true,
+	width:"260dp",
+	height:"235dp"//175
+},
+".item": {
+	height:"60dp",
+	color:"#000000",
+	font:{
+		fontSize:30
+	}
+},
+".delete": {
+	backgroundColor:"#ff0000",
+	height:"60dp",
+	color:"#ffffff",
+	font:{
+		fontSize:30
+	}
+}

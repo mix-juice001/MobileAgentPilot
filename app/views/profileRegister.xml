@@ -1,0 +1,14 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+		    <ImageView id="profileRegisterHeader" />
+			
+			<Label id="lead">事故等の緊急時に迅速に対応するために、\nお客様の電話番号をご登録ください。</Label>
+			<TextField id="cellphone" onChange="activateButton"/>
+			<TextField id="homephone" onChange="activateButton"/>
+		</View>
+		<View id="footer">
+			<ImageView id="registerButton" onClick="register" />
+		</View>
+    </Window>
+</Alloy>

@@ -1,0 +1,23 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+    		<View id="header">
+			    <ImageView id="myPageHeader" />
+			</View>
+			<TextField id="id" />
+			<TextField id="password" />
+			<View id="message">
+				<Label id="content">次回からIDの入力を省略</Label>
+				<Switch id="omitAtNext" ></Switch>
+			</View>
+			<View id="buttonView">
+				<ImageView id="newRegister" />
+				<ImageView id="reminder" onClick="remind"/>
+			</View>
+		</View>
+
+		<View id="footer">
+			<ImageView id="login"/>
+		</View>
+    </Window>
+</Alloy>
