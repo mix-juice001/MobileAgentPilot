@@ -13,11 +13,11 @@
  		</View>
  		<View class="view_body">
 	 		<ImageView id="oneday" onClick="toOnedayInsurance"/>
- 			<ImageView id="photo" />
+ 			<ImageView id="photo" onClick="toSmartPhotoMail"/>
  		</View>
  		<View class="view_body">
 	 		<ImageView id="quake" onClick="toNamazu"/>
- 			<ImageView id="note" />
+ 			<ImageView id="note" onClick="toSmartCheck"/>
  		</View>
  		<View class="view_body">
 	 		<ImageView id="profile" onClick="toProfile"/>

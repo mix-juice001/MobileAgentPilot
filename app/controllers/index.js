@@ -34,6 +34,12 @@ function toSmartAccident() {
 function toSmartRoadAssist() {
 	Alloy.createController('smartRoadAssist').getView().open();
 }
+function toSmartPhotoMail() {
+	Alloy.createController('photoMailIntro').getView().open();
+}
+function toSmartCheck() {
+	Alloy.createController('myPage', {check:true}).getView().open();
+}
 function toTokioMarineHomePage() {
 	Ti.Platform.openURL("http://www.tokiomarine-nichido.co.jp");
 }
