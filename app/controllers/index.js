@@ -74,6 +74,9 @@ function getCurrentTime() {
 function toProfile() {
 	Alloy.createController('profileRegister').getView().open();
 }
+function toInfo() {
+	Alloy.createController('information').getView().open();
+}
 
 //profile登録されている場合は画像を差し替える
 var profiles = Alloy.createCollection("profile");

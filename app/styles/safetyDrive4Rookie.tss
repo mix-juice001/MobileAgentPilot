@@ -1,0 +1,29 @@
+"Window": {
+	backgroundColor:"#FFFFFF"
+},
+".tab": {
+	backgroundSelectedColor:"#ffffff",
+	backgroundColor:"#a9a9a9",
+},
+"#collision": {
+	icon:"/images/tabIconCollisionDisable.png",
+},
+"#speedup": {
+	"icon":"/images/tabIconSpeedUpDisable.png",
+	// backgroundImage:"/images/tabIconSpeedUpDisable.png",//指定できるけど無効
+	// backgroundSelectedImage:"/images/tabIconSpeedUp.png",
+},
+"#steering": {
+	"icon":"/images/tabIconSteering.png",
+	// backgroundImage:"/images/tabIconSteeringDisable.png",
+	// backgroundSelectedImage:"/images/tabIconSteering.png"
+},
+"#contentsCollision": {
+	"image":"/images/naviContentsCollision.png"
+},
+"#contentsSpeedUp": {
+	"image":"/images/naviContentsSpeedUp.png",
+},
+"#contentsSteering": {
+	"image":"/images/naviContentsSteering.png"
+}

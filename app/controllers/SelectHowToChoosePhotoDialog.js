@@ -4,6 +4,8 @@ Ti.API.info(photoImage.id);
 var imageid = photoImage.id;
 var original = args.original;
 var callback = args.callback;
+var addPhoto = args.addPhoto;
+var deletePhoto = args.deletePhoto;
 Ti.API.info(original);
 
 function cancel() {
@@ -42,10 +44,16 @@ function bootCamera() {
 function bootGallery() {
 	Titanium.Media.openPhotoGallery({
 	    success: function(event) {
+	    	Ti.API.info(photoImage.id);
+	    	Ti.API.info(event.toString());
+	    	Ti.API.info(event.cropRect.toString());
+	    	Ti.API.info(event.media.nativePath);
 	    	// カメラロールで写真を選択した時の挙動(カメラと同様)
-	    	photoImage.image = event.media.imageAsResized(photoImage.size.width, photoImage.size.height);
+	    	photoImage.image = event.media.imageAsThumbnail(150);
+	    	//photoImage.image = event.media.imageAsResized(photoImage.size.width, photoImage.size.height);
 	        
 	        $.win.close();
+	        addPhoto(photoImage.id, event.media.nativePath);
 	        callback();
 	    },
 	    error: function(error) {
@@ -54,6 +62,7 @@ function bootGallery() {
 	    cancel: function() {
 	        // キャンセル時の挙動
 	    },
+	    saveToPhotoGallery:true,
 	    // 選択直後に拡大縮小移動をするか否かのフラグ
 	    allowEditing: true
 	    // 選択可能なメディア種別を配列で指定
@@ -64,16 +73,19 @@ function clearPhoto() {
 	Ti.API.info("clearPhoto...");
 	if (imageid == "carImage") {
 		photoImage.image = "/images/photMail_car.png";
+		deletePhoto(photoImage.id);
 		callback();
 		return;
 	}
 	if (imageid == "situationImage") {
 		photoImage.image = "/images/photoMail_situation.png";
+		deletePhoto(photoImage.id);
 		callback();
 		return;
 	}
 	if (imageid == "otherInfoImage") {
 		photoImage.image = "/images/photoMail_otherInfo.png";
+		deletePhoto(photoImage.id);
 		callback();
 		return;
 	}
@@ -99,7 +111,7 @@ function itemClick(e) {
 	}
 }
 
-if (original) {
+if (original) {//「写真をクリア」を表示するかどうか
 	$.listSection.deleteItemsAt(2, 1);
 	$.win.height = "175dp";
 }

@@ -1,0 +1,25 @@
+<Alloy>
+    <TabGroup id="tabGroup" >
+        <Tab id="watch" class="tab" onClick="activateIcon">
+            <Window title="tabWatch">
+            	<ScrollView>
+            		<ImageView id="contentsWatch" />
+            	</ScrollView>
+            </Window>
+        </Tab>
+        <Tab id="park" class="tab" onClick="activateIcon">
+            <Window title="tabPark" >
+            	<ScrollView>
+            		<ImageView id="contentsPark" />
+            	</ScrollView>
+            </Window>
+        </Tab>
+        <Tab id="crossing" class="tab" onClick="activateIcon">
+            <Window title="tabCrossing">
+            	<ScrollView>
+            		<ImageView id="contentsCrossing" />
+            	</ScrollView>
+            </Window>
+        </Tab>
+    </TabGroup>
+</Alloy>

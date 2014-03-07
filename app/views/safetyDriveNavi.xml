@@ -1,0 +1,13 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+		<ImageView id="safetyDriveHeader" />
+		<ImageView id="rookie" />
+		<ImageView id="collision" onClick="toSafetyDrive4RookieCollisionTab"/>
+		<ImageView id="speedup"  onClick="toSafetyDrive4RookieSpeedUpTab"/>
+		<ImageView id="steering"  onClick="toSafetyDrive4RookieSteeringTab"/>
+		<ImageView id="veteran" />
+		<ImageView id="watch" onClick="toSafetyDrive4VeteranWatchTab"/>
+		<ImageView id="park" onClick="toSafetyDrive4VeteranParkTab"/>
+		<ImageView id="crossing" onClick="toSafetyDrive4VeteranCrossingTab"/>
+    </Window>
+</Alloy>

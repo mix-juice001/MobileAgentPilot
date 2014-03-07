@@ -1,0 +1,26 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+    		<View id="header">
+			    <ImageView id="infoHeader" />
+			</View>
+			<ImageView id="icon" />
+			<View class="backgroudLabel" onClick="toUserPolicy">
+				<Label class="fieldLabel" id="" onClick="toUserPolicy">利用規約</Label>
+				<ImageView id="" class="rightArrow" onClick="toUserPolicy"/>
+			</View>
+			<View class="backgroudLabel" onClick="toCompanySummary">
+				<Label class="fieldLabel" id="" onClick="toCompanySummary">会社概要</Label>
+				<ImageView id="" class="rightArrow" onClick="toCompanySummary"/>
+			</View>
+			<View class="backgroudLabel" onClick="toHowToUse">
+				<Label class="fieldLabel" id="" onClick="toHowToUse">アプリの使い方</Label>
+				<ImageView id="" class="rightArrow" onClick="toHowToUse"/>
+			</View>
+			<View class="backgroudLabel" onClick="toPrivacyPolicy">
+				<Label class="fieldLabel" id="" onClick="toPrivacyPolicy">プライバシーポリシー</Label>
+				<ImageView id="" class="rightArrow" onClick="toPrivacyPolicy"/>
+			</View>
+		</View>
+    </Window>
+</Alloy>

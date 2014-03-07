@@ -1,0 +1,6 @@
+<Alloy>
+    <Window id="win" modal="true">
+	    <ImageView id="aboutAppHeader" />
+        <WebView id="webview" url="http://www.tokiomarine-nichido.co.jp/sp/app/riyou.html" />
+    </Window>
+</Alloy>

@@ -1,0 +1,25 @@
+"Window": {
+	backgroundColor:"#FFFFFF"
+},
+".tab": {
+	backgroundSelectedColor:"#ffffff",
+	backgroundColor:"#a9a9a9",
+},
+// "#watch": {
+	// icon:"/images/tabIconWatchDisable.png",
+// },
+// "#park": {
+	// icon:"/images/tabIconParkDisable.png",
+// },
+// "#crossing": {
+	// icon:"/images/tabIconCrossing.png",
+// },
+"#contentsWatch": {
+	"image":"/images/naviContentsWatch.png"
+},
+"#contentsPark": {
+	"image":"/images/naviContentsPark.png",
+},
+"#contentsCrossing": {
+	image:"/images/naviContentsCrossing.png"
+}

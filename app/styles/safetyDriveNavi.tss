@@ -1,0 +1,38 @@
+".container": {
+	layout:"vertical",
+	backgroundColor:"#FFFFFF"
+},
+"#safetyDriveHeader": {
+    "image": "/images/naviHeader.png"
+},
+"#rookie": {
+    "image": "/images/naviRookieDriver.png",
+},
+"#collision": {
+    "image": "/images/naviRookieCollision.png",
+    top:"10dp"
+},
+"#speedup": {
+    "image": "/images/naviRookieSpeedUp.png",
+    top:"5dp"
+},
+"#steering": {
+    "image": "/images/naviRookieSteering.png",
+    top:"5dp"
+},
+"#veteran": {
+    "image": "/images/naviVeteranDriver.png",
+    top:"10dp"
+},
+"#watch": {
+    "image": "/images/naviVeteranWatch.png",
+    top:"10dp"
+},
+"#park": {
+    "image": "/images/naviVeteranPark.png",
+    top:"5dp"
+},
+"#crossing": {
+    "image": "/images/naviVeteranCrossing.png",
+    top:"5dp"
+}

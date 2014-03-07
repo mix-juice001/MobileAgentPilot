@@ -22,7 +22,7 @@
  		<View class="view_body">
 	 		<ImageView id="profile" onClick="toProfile"/>
 	 		<ImageView id="logo" onClick="toTokioMarineHomePage"/>
-	 		<ImageView id="info" />
+	 		<ImageView id="info" onClick="toInfo"/>
  		</View>
     </Window>
 </Alloy>

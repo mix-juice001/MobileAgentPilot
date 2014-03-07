@@ -68,14 +68,14 @@
 	left:"10dp",
 	color:"#191970",//midnightblue
 	font:{
-		size:"30dp",
+		fontSize:30,
 	}
 },
 ".content": {
 	left:"60dp",
 	color:"#000000",//black
 	font:{
-		size:"30dp"
+		fontSize:30,
 	}
 },
 "#imageTel1": {

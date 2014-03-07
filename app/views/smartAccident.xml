@@ -2,7 +2,7 @@
     <Window class="container" id="win" fullscreen="true">
     	<View id="top">
 			<View id="header">
-			    <ImageView id="smartAccidentLogo" onCLick="doClick" />
+			    <ImageView id="smartAccidentLogo" />
 			</View>
 			
 			<View id="buttonView">
@@ -14,9 +14,9 @@
 			<Label id="address">address</Label>
 		</View>
 		<View id="footer">
-		    <ImageView id="incident" />
+		    <ImageView id="incident" onClick="toWhenIncidentHappens"/>
 		    <ImageView id="memo" />
-		    <ImageView id="navi" />
+		    <ImageView id="navi" onClick="toSafetyDriveNavi"/>
 		</View>
     </Window>
 </Alloy>

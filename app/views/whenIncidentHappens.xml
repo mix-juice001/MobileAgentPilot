@@ -1,0 +1,44 @@
+<Alloy>
+    <Window class="container" id="win" fullscreen="true">
+    	<View id="top">
+			<ImageView id="whenIncidentHappensHeader" />
+			<ScrollableView id="scrollableView" showPagingControl="true" onScrollEnd="scroll" pagingControlOnTop="false" pagingControlTimeout=3000>
+				<View id="step1">
+	            	<ScrollView>
+	            		<ImageView id="incidentStep1" />
+	            	</ScrollView>
+				</View>
+				<View id="step2">
+	            	<ScrollView>
+	            		<ImageView id="incidentStep2" />
+	            	</ScrollView>
+				</View>			
+				<View id="step3">
+	            	<ScrollView>
+	            		<ImageView id="incidentStep3" />
+	            	</ScrollView>
+				</View>
+				<View id="step4">
+	            	<ScrollView>
+	            		<ImageView id="incidentStep4" />
+	            	</ScrollView>
+				</View>
+				<View id="step5">
+	            	<ScrollView>
+	            		<ImageView id="incidentStep5" />
+	            	</ScrollView>
+				</View>
+				<View id="step6">
+	            	<ScrollView>
+	            		<ImageView id="incidentStep6" />
+	            	</ScrollView>
+				</View>
+			</ScrollableView>
+		</View>
+		<View id="footer">
+			<ImageView id="leftArrow" onClick="previous"/>
+			<ImageView id="step" />
+			<ImageView id="rightArrow" onClick="next"/>
+		</View>
+    </Window>
+</Alloy>

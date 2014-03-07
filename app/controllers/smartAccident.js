@@ -1,6 +1,3 @@
-function doClick(e) {
-	alert($.address.text);
-}
 function toAgency() {
 	Alloy.createController('smartAccidentAgency').getView().open();
 }
@@ -11,6 +8,13 @@ function toTokiomarine() {
 function toHP() {
 	Ti.Platform.openURL("https://ecom.tokiomarine-nichido.co.jp/HT081/002/jiko");
 }
+function toWhenIncidentHappens() {
+	Alloy.createController('whenIncidentHappens').getView().open();
+}
+function toSafetyDriveNavi() {
+	Alloy.createController('safetyDriveNavi').getView().open();
+}
+
 $.win.addEventListener("focus", function(e1){
 	Titanium.Geolocation.getCurrentPosition(function(e){
 	    // エラー時はコールバック関数の引数のerrorプロパティがセットされます

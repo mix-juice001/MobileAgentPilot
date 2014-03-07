@@ -1,0 +1,25 @@
+<Alloy>
+    <TabGroup id="tabGroup" >
+        <Tab id="collision" class="tab" onClick="activateIcon">
+            <Window title="tabCollision">
+            	<ScrollView>
+            		<ImageView id="contentsCollision" />
+            	</ScrollView>
+            </Window>
+        </Tab>
+        <Tab id="speedup" class="tab" onClick="activateIcon">
+            <Window title="tabSpeedUp" >
+            	<ScrollView>
+            		<ImageView id="contentsSpeedUp" />
+            	</ScrollView>
+            </Window>
+        </Tab>
+        <Tab id="steering" class="tab" onClick="activateIcon">
+            <Window title="tabSteering">
+            	<ScrollView>
+            		<ImageView id="contentsSteering" />]
+            	</ScrollView>
+            </Window>
+        </Tab>
+    </TabGroup>
+</Alloy>
