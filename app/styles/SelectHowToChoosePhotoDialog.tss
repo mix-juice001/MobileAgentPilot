@@ -5,6 +5,7 @@
 	height:"235dp"//175
 },
 ".item": {
+	accessoryType:Ti.UI.LIST_ACCESSORY_TYPE_NONE,
 	height:"60dp",
 	color:"#000000",
 	font:{
