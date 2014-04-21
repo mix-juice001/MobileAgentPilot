@@ -3,6 +3,7 @@
     	<View id="top">
     		<View id="header">
 			    <ImageView id="myPageHeader" />
+			    <ImageView id="back" onClick="back" />
 			</View>
 			<TextField id="id" />
 			<TextField id="password" />

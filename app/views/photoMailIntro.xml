@@ -3,6 +3,7 @@
     	<View id="top">
     		<View id="header">
 			    <ImageView id="photoMailLogo" />
+			    <ImageView id="back" onClick="back" />
 			</View>
 			<ScrollableView id="scrollableView" showPagingControl="true" onScrollEnd="scroll">
 				<View id="page1">

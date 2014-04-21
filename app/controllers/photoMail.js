@@ -1,4 +1,6 @@
-
+function back() {
+	$.win.close();
+}
 function mail() {
 	var emailDialog = Titanium.UI.createEmailDialog();
 

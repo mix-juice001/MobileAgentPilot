@@ -10,4 +10,6 @@ function toHowToUse() {
 function toPrivacyPolicy() {
 	Alloy.createController('privacyPolicy').getView().open();
 }
-
+function back() {
+	$.win.close();
+}

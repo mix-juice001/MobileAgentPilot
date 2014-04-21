@@ -14,6 +14,9 @@ function scroll() {
 	}
 }
 
+function back() {
+	$.win.close();
+}
 function addContact(e) {
 	console.log(e);
 	Alloy.createController('contactSearchDialog').getView().open();

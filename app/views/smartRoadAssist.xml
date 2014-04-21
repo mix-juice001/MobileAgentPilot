@@ -3,6 +3,7 @@
     	<View id="top">
 			<View id="header">
 			    <ImageView id="smartRoadLogo" />
+			    <ImageView id="back" onClick="back" />
 			</View>
 			<ImageView id="cellPhone" />
             <View id="number">

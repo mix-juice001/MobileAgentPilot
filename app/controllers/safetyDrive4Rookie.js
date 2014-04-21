@@ -4,6 +4,7 @@ var tabindex = args.tab;
 $.tabGroup.setActiveTab(tabindex);
 activateIcon(tabindex);
 
+
 function activateIcon(tabindex) {
 	activate($.tabGroup.getTabs()[tabindex]);
 }

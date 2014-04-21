@@ -1,7 +1,10 @@
 <Alloy>
     <Window class="container" id="win" fullscreen="true">
     	<View id="top">
-			<ImageView id="whenIncidentHappensHeader" />
+    		<View id="header">
+				<ImageView id="whenIncidentHappensHeader" />
+				<ImageView id="back" onClick="back" />
+			</View>
 			<ScrollableView id="scrollableView" showPagingControl="true" onScrollEnd="scroll" pagingControlOnTop="false" pagingControlTimeout=3000>
 				<View id="step1">
 	            	<ScrollView>

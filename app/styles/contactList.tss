@@ -18,10 +18,15 @@
 	layout:"vertical",
 },
 "#contactListLogo": {
-    "image": "/images/contactList.png"
+    image : "/images/contactList.png",
+    width : Ti.UI.FILL
+},
+"#back": {
+    image : "/images/back.png",
+    left:"0dp"
 },
 "#contactAddButton": {
-    "image": "/images/contactAddButton.png",
+    image : "/images/contactAddButton.png",
     left:"270dp"
 },
 "#agencyInfo": {
@@ -45,17 +50,17 @@
 	}
 }
 "#arrowLeft": {
-	"image":"/images/contactArrowLeftDisable.png",
+	image :"/images/contactArrowLeftDisable.png",
 	left:"20dp",
 	top:"70dp"
 },
 "#arrowRight": {
-	"image":"/images/contactArrowRightDisable.png",
+	image :"/images/contactArrowRightDisable.png",
 	left:"280dp",
 	top:"70dp"
 },
 "#contactEditButton": {
-    "image": "/images/contactEditButton.png",
+    image : "/images/contactEditButton.png",
     left:"230dp"
 },
 ".backgroudLabel": {
@@ -79,23 +84,23 @@
 	}
 },
 "#imageTel1": {
-	"image":"/images/contactTelephone.png",
+	image :"/images/contactTelephone.png",
 	left:"270dp"
 },
 "#imageTel2": {
-	"image":"/images/contactTelephone.png",
+	image :"/images/contactTelephone.png",
 	left:"270dp"
 },
 "#imageMail": {
-	"image":"/images/contactMail.png",
+	image :"/images/contactMail.png",
 	left:"270dp"
 },
 "#imageHP": {
-	"image":"/images/contactHP.png",
+	image :"/images/contactHP.png",
 	left:"270dp"
 },
 "#imageMemoDetail": {
-	"image":"/images/contactArrowRightDisable.png",
+	image :"/images/contactArrowRightDisable.png",
 	left:"270dp"
 },
 "#priority": {

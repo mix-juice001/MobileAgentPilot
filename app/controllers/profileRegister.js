@@ -1,3 +1,6 @@
+function back() {
+	$.win.close();
+}
 function activateButton() {
 	if ($.cellphone.hasText() || $.homephone.hasText()) {
 		$.registerButton.image = '/images/profileRegisterButton.png';

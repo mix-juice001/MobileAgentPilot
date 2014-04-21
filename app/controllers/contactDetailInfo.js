@@ -9,7 +9,9 @@ $.url.text = args.url;
 $.memo.text = args.memo;
 $.imageAgency.image = args.imageBlob.imageWithAlpha();
 //$.imageAgency.image = args.path; 
-
+function back() {
+	$.win.close();
+}
 function onClickRegister() {
 	var dialogs = require('alloy/dialogs');
 	dialogs.confirm({

@@ -14,6 +14,10 @@
 "#infoHeader": {
     "image": "/images/infoHeader.png"
 },
+"#back": {
+    image : "/images/back.png",
+    left:"0dp"
+},
 "#icon": {
 	"image": "/images/infoIcon.png"
 },

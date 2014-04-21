@@ -1,7 +1,9 @@
+function back() {
+	$.win.close();
+}
 function toAgency() {
 	Alloy.createController('smartAccidentAgency').getView().open();
 }
-
 function toTokiomarine() {
 	Alloy.createController('smartAccidentTokioMarine').getView().open();
 }

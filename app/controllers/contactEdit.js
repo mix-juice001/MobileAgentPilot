@@ -1,3 +1,6 @@
+function back() {
+	$.win.close();
+}
 function remove() {
 	var dialogs = require('alloy/dialogs');
 	dialogs.confirm({

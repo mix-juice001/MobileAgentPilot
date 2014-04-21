@@ -12,3 +12,6 @@ function onCall() {
 	client.postLocationAndCell();
 	Titanium.Platform.openURL("tel:0120119110");
 }
+function back() {
+	$.win.close();
+}

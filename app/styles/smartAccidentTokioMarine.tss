@@ -11,6 +11,10 @@
 	width:"100%",
 	height: Ti.UI.SIZE,
 },
+"#back": {
+    image : "/images/back.png",
+    left:"0dp"
+},
 "#buttonView": {
 	width:"100%",
 	height: Ti.UI.SIZE,

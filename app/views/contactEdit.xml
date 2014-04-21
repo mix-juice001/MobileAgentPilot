@@ -3,6 +3,7 @@
     	<View id="top">
 			<View id="header">
 			    <ImageView id="contactListLogo" />
+			    <ImageView id="back" onClick="back" />
 			    <!-- <ImageView id="register" onClick="onClickRegister"/> -->
 			</View>
 			

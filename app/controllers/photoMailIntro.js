@@ -1,3 +1,6 @@
+function back() {
+	$.win.close();
+}
 function next() {
 	$.scrollableView.moveNext();
 }

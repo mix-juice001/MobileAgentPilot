@@ -3,6 +3,7 @@
     	<View id="top">
 			<View id="header">
 			    <ImageView id="smartAccidentLogo" />
+			    <ImageView id="back" onClick="back" />
 			</View>
 			
 			<View id="buttonView">

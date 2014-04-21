@@ -3,6 +3,7 @@
     	<View id="top">
     		<View id="header">
 			    <ImageView id="infoHeader" />
+			    <ImageView id="back" onClick="back" />
 			</View>
 			<ImageView id="icon" />
 			<View class="backgroudLabel" onClick="toUserPolicy">

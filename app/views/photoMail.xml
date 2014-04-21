@@ -3,6 +3,7 @@
     	<View id="top">
     		<View id="header">
 			    <ImageView id="photoMailLogo" />
+			    <ImageView id="back" onClick="back" />
 			</View>
 			<View class="photoView">
 				<ImageView id="carImage" onClick="selectHow" class="photoImage"/>

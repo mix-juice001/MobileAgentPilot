@@ -1,3 +1,6 @@
+function back() {
+	$.win.close();
+}
 function toSafetyDrive4Rookie(tabindex) {
 	Alloy.createController('safetyDrive4Rookie',{
 		tab:tabindex

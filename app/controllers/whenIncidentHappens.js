@@ -8,7 +8,9 @@ function previous() {
 function next() {
 	$.scrollableView.moveNext();
 }
-
+function back() {
+	$.win.close();
+}
 Ti.API.info(Ti.Platform.displayCaps.platformHeight);
 Ti.API.info(Ti.Platform.displayCaps.platformWidth);
 
