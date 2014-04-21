@@ -1,7 +1,9 @@
 <Alloy>
     <Window id="win" modal="true">
-	    <ImageView id="aboutAppHeader" />
-	    <ImageView id="back" onClick="back" />
+  		<View id="header">
+			<ImageView id="aboutAppHeader" />
+			<ImageView id="back" onClick="back" />
+		</View>
         <WebView id="webview" url="http://www.tokiomarine-nichido.co.jp/sp/app/index.html#h2_howto" />
     </Window>
 </Alloy>
